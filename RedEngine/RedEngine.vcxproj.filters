@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{c94b5f97-5520-41f6-a3a8-995e1fb9b95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{964739a5-fc7f-4454-a011-bce69ee77575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{68e7da8f-af39-4f9b-9ef7-056bf8fa4c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{598ccba2-af1e-4008-8fa4-cf52af9f9274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{76c10641-f396-413f-b61b-db63811de093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{b89c8156-8922-48b8-87ac-e62b1d97784e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug_text.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="red_main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="device_resources.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="device_resources.h">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="view.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="list.h">
+      <Filter>DataStructures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="red_engine.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="view.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
